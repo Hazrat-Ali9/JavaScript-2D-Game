@@ -1,6 +1,6 @@
 rs=new Audio("run.mp3");
 rs.loop=true;
-
+// Script js
 var js=new Audio("jump.mp3");
 
 var ds=new Audio("dead.mp3");
