@@ -1,0 +1,46 @@
+<Html>
+<Head>
+    <title> 2D Game </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Icons/Icon.png" />
+</Head>
+
+<Body class="body" onkeyup="key(event);">
+
+    <div class="b" id="b">
+        <div class="score" id="score">0</div>
+        <img class="boy" id="boy" src="Run (1).png" />
+    </div>
+    
+<!---------- Start Page -------------->
+
+    <div class="sta" id="sta">
+
+        <p class="P">THE RED HAT BOY</p>
+        <div class="sd1">WELCOME </div><br />
+        <div class="sd2">Click the " ENTER " to Start the Game.</div><br />
+        <div class="sd3">Click the " SPACE " to Play the Game.</div><br />
+
+    </div>
+    
+<!---------- Game  Over Page -------------->
+
+    <div class="end" id="end">
+        <div>Game Over</div>
+        <div>your score</div>
+        <img class="endboy" src="Run (1).png" />
+        <div id="endscore">0</div>
+        <button class="btn" onclick="re();">Try Again</button>
+    </div>
+
+    <div class="win" id="win">
+        <div class="win2">CONGRATULATIONS</div>
+        <div class="win3">YOU WON</div>
+        <div class="win4">Your Score</div>
+        <div class="win5">800</div>
+        <button class="win6" onclick="re();">Play Again</button>   
+    </div>
+    
+    <script src="script.js"></script>
+</Body>
+</Html>
